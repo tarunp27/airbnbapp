@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+nav{
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+.logo{
+    max-width: 160px;
+    max-height: 100px;
+}
+.gray{
+    color: gray;
+}
+section{
+    padding: 20px;
+}
+
+.hero , .hero--grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo{
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero-header{
+    margin-bottom: 16px;
+}
+
+.hero--text{
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card{
+    width: 175px;
+    font-size: 12px;
+}
+.card--image{
+    width:100%;
+    border-radius: 9px;
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+
+.card--star{
+    height: 11px;
+    align-self:baseline;
+}
+
+.contact--image{
+    width: 14px;
+    height: 14px;
+    padding-right: 5px;
+}
+.kitty{
+    height: 188px;
+    width: 230px;
+}
+.contact--section{
+    padding: 20px 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 12px;
+}
+
+.contact--email, .contact--phone{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+
+.contact--name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
