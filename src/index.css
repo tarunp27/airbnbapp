@@ -41,10 +41,17 @@ section{
 .card{
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px;
+    /* padding: 20px 20px; */
 }
 .card--image{
     width:100%;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .card--stats{
@@ -56,7 +63,11 @@ section{
     height: 11px;
     align-self:baseline;
 }
+.card--image{
 
+    height: 250px;
+    float: left;
+}
 .contact--image{
     width: 14px;
     height: 14px;
